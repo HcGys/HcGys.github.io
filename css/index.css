@@ -9525,6 +9525,9 @@ figure.highlight pre .deletion {
 }
 .el-textarea__inner {
   border-radius: 8px !important;
+}
+
+.el-textarea .el-input__count {
   top: 5px !important;
 }
 
