@@ -7032,7 +7032,7 @@ div#archive {
   overflow: visible !important;
   max-height: none !important;
   backdrop-filter: blur(4px);
-  margin-right: 3%;
+  margin-right: 6px;
 }
 .tk-comment{
   border-top: 1px solid #1c1c1d23;
@@ -7129,7 +7129,7 @@ code[class*=language-], pre[class*=language-] {
 pre[class*="language-"] {
   padding-top: 1.3rem !important;
   border-radius: 10px !important;
-  min-width: 130px;
+  min-width: 80px;
 }
 
 pre[class*="language-"]:before {
@@ -7214,7 +7214,7 @@ pre[class*="language-"]:before {
     width: fit-content;
   }
   .tk-master .tk-content {
-    width: 75%;
+    max-width: 75%;
     width: fit-content;
   }
   .tk-master .tk-content::before {
