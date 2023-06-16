@@ -1215,7 +1215,10 @@ function changeToLight() {
   link.href = "https://www.cnblogs.com/css/prismjs/prism-coldark-cold.css";
   document.body.appendChild(link);
 }
-document.querySelector('body').classList.contains('DarkMode') ? changeToNight() : changeToLight();  // 设置默认为lightly
+
+$(function(){
+  document.querySelector('body').classList.contains('DarkMode') ? changeToNight() : changeToLight();  // 设置默认为lightly
+})
 
 /* 夜间模式切换动画 start */
 function switchNightMode() {
