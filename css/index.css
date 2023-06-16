@@ -7125,6 +7125,31 @@ code[class*=language-], pre[class*=language-] {
   color: var(--font-color) !important;
 }
 
+pre[class*="language-"] {
+  padding-top: 1.3rem !important;
+  border-radius: 10px !important;
+}
+
+pre[class*="language-"]:before {
+  position: absolute;
+  left: 16px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fc625d;
+  margin-top: -12px;
+  -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  content: ' ';
+}
+
+.tk-preview-container > * {
+  width: fit-content;
+}
+
+.tk-preview-container > pre[class*="language-"]:before {
+  left: 70px;
+}
 
 :not(pre)>code[class*=language-], pre[class*=language-] {
   background-color: #e7f2f7e8 !important;
