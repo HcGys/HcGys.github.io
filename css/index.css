@@ -7114,6 +7114,7 @@ div#archive {
 .tk-expand{
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  backdrop-filter: blur(4px);
 }
 
 .tk-expand:hover {
@@ -7128,6 +7129,7 @@ code[class*=language-], pre[class*=language-] {
 pre[class*="language-"] {
   padding-top: 1.3rem !important;
   border-radius: 10px !important;
+  min-width: 130px;
 }
 
 pre[class*="language-"]:before {
