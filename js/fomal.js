@@ -1216,10 +1216,6 @@ function changeToLight() {
   document.body.appendChild(link);
 }
 
-$(function(){
-  document.querySelector('body').classList.contains('DarkMode') ? changeToNight() : changeToLight();  // 设置默认为lightly
-})
-
 /* 夜间模式切换动画 start */
 function switchNightMode() {
   document.querySelector('body').insertAdjacentHTML('beforeend', '<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"><div id="sun"></div><div id="moon"></div></div></div>'),

@@ -469,10 +469,12 @@ document.addEventListener('DOMContentLoaded', function () {
       if (nowMode === 'light') {
         activateDarkMode()
         saveToLocal.set('theme', 'dark', 2)
+        changeToNight()
         // GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)
       } else {
         activateLightMode()
         saveToLocal.set('theme', 'light', 2)
+        changeLight()
         // GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.night_to_day)
       }
       // handle some cases
