@@ -7122,7 +7122,7 @@ div#archive {
 }
 
 code[class*=language-], pre[class*=language-] {
-  font-family: 'SourceCodePro' !important;
+  font-family: SourceCodePro, Consolas_1, var(--global-font), "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif, !important;
   color: var(--font-color) !important;
 }
 
