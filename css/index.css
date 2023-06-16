@@ -7032,7 +7032,7 @@ div#archive {
   overflow: visible !important;
   max-height: none !important;
   backdrop-filter: blur(4px);
-  margin-right: 6px;
+  max-width: calc(100% - 6px) !important;
 }
 .tk-comment{
   border-top: 1px solid #1c1c1d23;
@@ -7129,7 +7129,7 @@ code[class*=language-], pre[class*=language-] {
 pre[class*="language-"] {
   padding-top: 1.3rem !important;
   border-radius: 10px !important;
-  min-width: 65px;
+  min-width: 80px;
 }
 
 pre[class*="language-"]:before {
