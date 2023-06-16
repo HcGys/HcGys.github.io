@@ -9525,6 +9525,7 @@ figure.highlight pre .deletion {
 }
 .el-textarea__inner {
   border-radius: 8px !important;
+  top: 5px !important;
 }
 
 /* 分割线 */
