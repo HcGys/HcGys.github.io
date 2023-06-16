@@ -1197,24 +1197,24 @@ console.warn = function () { };
 
 //----------------------------------------------------------------
 
-// twikoo 评论区 代码样式
-function changeToNight() {
-  $("#lightly").remove();
-  var link = document.createElement("link");
-  link.rel = "stylesheet";
-  link.id = "darkly";
-  link.href = "https://www.cnblogs.com/css/prismjs/prism-nord.css";
-  document.body.appendChild(link);
-}
+// // twikoo 评论区 代码样式
+// function changeToNight() {
+//   $("#lightly").remove();
+//   var link = document.createElement("link");
+//   link.rel = "stylesheet";
+//   link.id = "darkly";
+//   link.href = "https://www.cnblogs.com/css/prismjs/prism-nord.css";
+//   document.body.appendChild(link);
+// }
 
-function changeToLight() {
-  $("#darkly").remove();
-  var link = document.createElement("link");
-  link.rel = "stylesheet";
-  link.id = "lightly";
-  link.href = "https://www.cnblogs.com/css/prismjs/prism-coldark-cold.css";
-  document.body.appendChild(link);
-}
+// function changeToLight() {
+//   $("#darkly").remove();
+//   var link = document.createElement("link");
+//   link.rel = "stylesheet";
+//   link.id = "lightly";
+//   link.href = "https://www.cnblogs.com/css/prismjs/prism-coldark-cold.css";
+//   document.body.appendChild(link);
+// }
 
 /* 夜间模式切换动画 start */
 function switchNightMode() {
