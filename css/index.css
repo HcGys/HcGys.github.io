@@ -7129,7 +7129,7 @@ code[class*=language-], pre[class*=language-] {
 pre[class*="language-"] {
   padding-top: 1.3rem !important;
   border-radius: 10px !important;
-  min-width: 80px;
+  min-width: 65px;
 }
 
 pre[class*="language-"]:before {
