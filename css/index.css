@@ -7147,6 +7147,7 @@ pre[class*="language-"]:before {
 
 .tk-preview-container > * {
   width: fit-content;
+  max-width: calc(100%);
 }
 
 .tk-preview-container > pre[class*="language-"]:before {
